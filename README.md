@@ -27,6 +27,8 @@ Open `http://127.0.0.1:8050`.
 
 The repository includes `render.yaml`. In Render, create a Blueprint from this repository. Render installs the Python dependencies and starts the Dash application with Gunicorn. Every push to `main` can be deployed automatically.
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/lei-ryan/DC-os)
+
 ## Source policy
 
 All authored application logic is Python. Dash and Plotly generate the browser runtime required for interactive web rendering.
