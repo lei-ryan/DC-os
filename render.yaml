@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: dc-thermalgraph-risk-os
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:server
+    healthCheckPath: /health
+    autoDeploy: true

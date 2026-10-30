@@ -1,0 +1,2724 @@
+{
+  "layout": "two rows, six racks per row, front/back x bottom/middle/top per rack",
+  "node_order": [
+    "R0501_THFB",
+    "R0501_THFM",
+    "R0501_THFT",
+    "R0501_THBB",
+    "R0501_THBM",
+    "R0501_THBT",
+    "R0502_THFB",
+    "R0502_THFM",
+    "R0502_THFT",
+    "R0502_THBB",
+    "R0502_THBM",
+    "R0502_THBT",
+    "R0503_THFB",
+    "R0503_THFM",
+    "R0503_THFT",
+    "R0503_THBB",
+    "R0503_THBM",
+    "R0503_THBT",
+    "R0504_THFB",
+    "R0504_THFM",
+    "R0504_THFT",
+    "R0504_THBB",
+    "R0504_THBM",
+    "R0504_THBT",
+    "R0505_THFB",
+    "R0505_THFM",
+    "R0505_THFT",
+    "R0505_THBB",
+    "R0505_THBM",
+    "R0505_THBT",
+    "R0506_THFB",
+    "R0506_THFM",
+    "R0506_THFT",
+    "R0506_THBB",
+    "R0506_THBM",
+    "R0506_THBT",
+    "R0601_THFB",
+    "R0601_THFM",
+    "R0601_THFT",
+    "R0601_THBB",
+    "R0601_THBM",
+    "R0601_THBT",
+    "R0602_THFB",
+    "R0602_THFM",
+    "R0602_THFT",
+    "R0602_THBB",
+    "R0602_THBM",
+    "R0602_THBT",
+    "R0603_THFB",
+    "R0603_THFM",
+    "R0603_THFT",
+    "R0603_THBB",
+    "R0603_THBM",
+    "R0603_THBT",
+    "R0604_THFB",
+    "R0604_THFM",
+    "R0604_THFT",
+    "R0604_THBB",
+    "R0604_THBM",
+    "R0604_THBT",
+    "R0605_THFB",
+    "R0605_THFM",
+    "R0605_THFT",
+    "R0605_THBB",
+    "R0605_THBM",
+    "R0605_THBT",
+    "R0606_THFB",
+    "R0606_THFM",
+    "R0606_THFT",
+    "R0606_THBB",
+    "R0606_THBM",
+    "R0606_THBT"
+  ],
+  "node_count": 72,
+  "monitoring_pairs": [
+    {
+      "pair_id": "R0501_B",
+      "rack": "R0501",
+      "height": "bottom",
+      "front": "R0501_THFB",
+      "back": "R0501_THBB",
+      "front_index": 0,
+      "back_index": 3,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0501_M",
+      "rack": "R0501",
+      "height": "middle",
+      "front": "R0501_THFM",
+      "back": "R0501_THBM",
+      "front_index": 1,
+      "back_index": 4,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0501_T",
+      "rack": "R0501",
+      "height": "top",
+      "front": "R0501_THFT",
+      "back": "R0501_THBT",
+      "front_index": 2,
+      "back_index": 5,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0502_B",
+      "rack": "R0502",
+      "height": "bottom",
+      "front": "R0502_THFB",
+      "back": "R0502_THBB",
+      "front_index": 6,
+      "back_index": 9,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0502_M",
+      "rack": "R0502",
+      "height": "middle",
+      "front": "R0502_THFM",
+      "back": "R0502_THBM",
+      "front_index": 7,
+      "back_index": 10,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0502_T",
+      "rack": "R0502",
+      "height": "top",
+      "front": "R0502_THFT",
+      "back": "R0502_THBT",
+      "front_index": 8,
+      "back_index": 11,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0503_B",
+      "rack": "R0503",
+      "height": "bottom",
+      "front": "R0503_THFB",
+      "back": "R0503_THBB",
+      "front_index": 12,
+      "back_index": 15,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0503_M",
+      "rack": "R0503",
+      "height": "middle",
+      "front": "R0503_THFM",
+      "back": "R0503_THBM",
+      "front_index": 13,
+      "back_index": 16,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0503_T",
+      "rack": "R0503",
+      "height": "top",
+      "front": "R0503_THFT",
+      "back": "R0503_THBT",
+      "front_index": 14,
+      "back_index": 17,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0504_B",
+      "rack": "R0504",
+      "height": "bottom",
+      "front": "R0504_THFB",
+      "back": "R0504_THBB",
+      "front_index": 18,
+      "back_index": 21,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0504_M",
+      "rack": "R0504",
+      "height": "middle",
+      "front": "R0504_THFM",
+      "back": "R0504_THBM",
+      "front_index": 19,
+      "back_index": 22,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0504_T",
+      "rack": "R0504",
+      "height": "top",
+      "front": "R0504_THFT",
+      "back": "R0504_THBT",
+      "front_index": 20,
+      "back_index": 23,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0505_B",
+      "rack": "R0505",
+      "height": "bottom",
+      "front": "R0505_THFB",
+      "back": "R0505_THBB",
+      "front_index": 24,
+      "back_index": 27,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0505_M",
+      "rack": "R0505",
+      "height": "middle",
+      "front": "R0505_THFM",
+      "back": "R0505_THBM",
+      "front_index": 25,
+      "back_index": 28,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0505_T",
+      "rack": "R0505",
+      "height": "top",
+      "front": "R0505_THFT",
+      "back": "R0505_THBT",
+      "front_index": 26,
+      "back_index": 29,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0506_B",
+      "rack": "R0506",
+      "height": "bottom",
+      "front": "R0506_THFB",
+      "back": "R0506_THBB",
+      "front_index": 30,
+      "back_index": 33,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0506_M",
+      "rack": "R0506",
+      "height": "middle",
+      "front": "R0506_THFM",
+      "back": "R0506_THBM",
+      "front_index": 31,
+      "back_index": 34,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0506_T",
+      "rack": "R0506",
+      "height": "top",
+      "front": "R0506_THFT",
+      "back": "R0506_THBT",
+      "front_index": 32,
+      "back_index": 35,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0601_B",
+      "rack": "R0601",
+      "height": "bottom",
+      "front": "R0601_THFB",
+      "back": "R0601_THBB",
+      "front_index": 36,
+      "back_index": 39,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0601_M",
+      "rack": "R0601",
+      "height": "middle",
+      "front": "R0601_THFM",
+      "back": "R0601_THBM",
+      "front_index": 37,
+      "back_index": 40,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0601_T",
+      "rack": "R0601",
+      "height": "top",
+      "front": "R0601_THFT",
+      "back": "R0601_THBT",
+      "front_index": 38,
+      "back_index": 41,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0602_B",
+      "rack": "R0602",
+      "height": "bottom",
+      "front": "R0602_THFB",
+      "back": "R0602_THBB",
+      "front_index": 42,
+      "back_index": 45,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0602_M",
+      "rack": "R0602",
+      "height": "middle",
+      "front": "R0602_THFM",
+      "back": "R0602_THBM",
+      "front_index": 43,
+      "back_index": 46,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0602_T",
+      "rack": "R0602",
+      "height": "top",
+      "front": "R0602_THFT",
+      "back": "R0602_THBT",
+      "front_index": 44,
+      "back_index": 47,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0603_B",
+      "rack": "R0603",
+      "height": "bottom",
+      "front": "R0603_THFB",
+      "back": "R0603_THBB",
+      "front_index": 48,
+      "back_index": 51,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0603_M",
+      "rack": "R0603",
+      "height": "middle",
+      "front": "R0603_THFM",
+      "back": "R0603_THBM",
+      "front_index": 49,
+      "back_index": 52,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0603_T",
+      "rack": "R0603",
+      "height": "top",
+      "front": "R0603_THFT",
+      "back": "R0603_THBT",
+      "front_index": 50,
+      "back_index": 53,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0604_B",
+      "rack": "R0604",
+      "height": "bottom",
+      "front": "R0604_THFB",
+      "back": "R0604_THBB",
+      "front_index": 54,
+      "back_index": 57,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0604_M",
+      "rack": "R0604",
+      "height": "middle",
+      "front": "R0604_THFM",
+      "back": "R0604_THBM",
+      "front_index": 55,
+      "back_index": 58,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0604_T",
+      "rack": "R0604",
+      "height": "top",
+      "front": "R0604_THFT",
+      "back": "R0604_THBT",
+      "front_index": 56,
+      "back_index": 59,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0605_B",
+      "rack": "R0605",
+      "height": "bottom",
+      "front": "R0605_THFB",
+      "back": "R0605_THBB",
+      "front_index": 60,
+      "back_index": 63,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0605_M",
+      "rack": "R0605",
+      "height": "middle",
+      "front": "R0605_THFM",
+      "back": "R0605_THBM",
+      "front_index": 61,
+      "back_index": 64,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0605_T",
+      "rack": "R0605",
+      "height": "top",
+      "front": "R0605_THFT",
+      "back": "R0605_THBT",
+      "front_index": 62,
+      "back_index": 65,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0606_B",
+      "rack": "R0606",
+      "height": "bottom",
+      "front": "R0606_THFB",
+      "back": "R0606_THBB",
+      "front_index": 66,
+      "back_index": 69,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0606_M",
+      "rack": "R0606",
+      "height": "middle",
+      "front": "R0606_THFM",
+      "back": "R0606_THBM",
+      "front_index": 67,
+      "back_index": 70,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    },
+    {
+      "pair_id": "R0606_T",
+      "rack": "R0606",
+      "height": "top",
+      "front": "R0606_THFT",
+      "back": "R0606_THBT",
+      "front_index": 68,
+      "back_index": 71,
+      "rise_definition": "back_temperature_c - front_temperature_c"
+    }
+  ],
+  "monitoring_pair_count": 36,
+  "directed_edges": [
+    {
+      "source": "R0501_THFB",
+      "target": "R0501_THBB",
+      "source_index": 0,
+      "target_index": 3,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0501_THFM",
+      "target": "R0501_THBM",
+      "source_index": 1,
+      "target_index": 4,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0501_THFT",
+      "target": "R0501_THBT",
+      "source_index": 2,
+      "target_index": 5,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0502_THFB",
+      "target": "R0502_THBB",
+      "source_index": 6,
+      "target_index": 9,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0502_THFM",
+      "target": "R0502_THBM",
+      "source_index": 7,
+      "target_index": 10,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0502_THFT",
+      "target": "R0502_THBT",
+      "source_index": 8,
+      "target_index": 11,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0503_THFB",
+      "target": "R0503_THBB",
+      "source_index": 12,
+      "target_index": 15,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0503_THFM",
+      "target": "R0503_THBM",
+      "source_index": 13,
+      "target_index": 16,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0503_THFT",
+      "target": "R0503_THBT",
+      "source_index": 14,
+      "target_index": 17,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0504_THFB",
+      "target": "R0504_THBB",
+      "source_index": 18,
+      "target_index": 21,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0504_THFM",
+      "target": "R0504_THBM",
+      "source_index": 19,
+      "target_index": 22,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0504_THFT",
+      "target": "R0504_THBT",
+      "source_index": 20,
+      "target_index": 23,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0505_THFB",
+      "target": "R0505_THBB",
+      "source_index": 24,
+      "target_index": 27,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0505_THFM",
+      "target": "R0505_THBM",
+      "source_index": 25,
+      "target_index": 28,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0505_THFT",
+      "target": "R0505_THBT",
+      "source_index": 26,
+      "target_index": 29,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0506_THFB",
+      "target": "R0506_THBB",
+      "source_index": 30,
+      "target_index": 33,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0506_THFM",
+      "target": "R0506_THBM",
+      "source_index": 31,
+      "target_index": 34,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0506_THFT",
+      "target": "R0506_THBT",
+      "source_index": 32,
+      "target_index": 35,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0601_THFB",
+      "target": "R0601_THBB",
+      "source_index": 36,
+      "target_index": 39,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0601_THFM",
+      "target": "R0601_THBM",
+      "source_index": 37,
+      "target_index": 40,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0601_THFT",
+      "target": "R0601_THBT",
+      "source_index": 38,
+      "target_index": 41,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0602_THFB",
+      "target": "R0602_THBB",
+      "source_index": 42,
+      "target_index": 45,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0602_THFM",
+      "target": "R0602_THBM",
+      "source_index": 43,
+      "target_index": 46,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0602_THFT",
+      "target": "R0602_THBT",
+      "source_index": 44,
+      "target_index": 47,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0603_THFB",
+      "target": "R0603_THBB",
+      "source_index": 48,
+      "target_index": 51,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0603_THFM",
+      "target": "R0603_THBM",
+      "source_index": 49,
+      "target_index": 52,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0603_THFT",
+      "target": "R0603_THBT",
+      "source_index": 50,
+      "target_index": 53,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0604_THFB",
+      "target": "R0604_THBB",
+      "source_index": 54,
+      "target_index": 57,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0604_THFM",
+      "target": "R0604_THBM",
+      "source_index": 55,
+      "target_index": 58,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0604_THFT",
+      "target": "R0604_THBT",
+      "source_index": 56,
+      "target_index": 59,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0605_THFB",
+      "target": "R0605_THBB",
+      "source_index": 60,
+      "target_index": 63,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0605_THFM",
+      "target": "R0605_THBM",
+      "source_index": 61,
+      "target_index": 64,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0605_THFT",
+      "target": "R0605_THBT",
+      "source_index": 62,
+      "target_index": 65,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0606_THFB",
+      "target": "R0606_THBB",
+      "source_index": 66,
+      "target_index": 69,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0606_THFM",
+      "target": "R0606_THBM",
+      "source_index": 67,
+      "target_index": 70,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0606_THFT",
+      "target": "R0606_THBT",
+      "source_index": 68,
+      "target_index": 71,
+      "edge_type": "front_to_back"
+    },
+    {
+      "source": "R0501_THFB",
+      "target": "R0501_THFM",
+      "source_index": 0,
+      "target_index": 1,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0501_THFM",
+      "target": "R0501_THFB",
+      "source_index": 1,
+      "target_index": 0,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0501_THFM",
+      "target": "R0501_THFT",
+      "source_index": 1,
+      "target_index": 2,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0501_THFT",
+      "target": "R0501_THFM",
+      "source_index": 2,
+      "target_index": 1,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0501_THBB",
+      "target": "R0501_THBM",
+      "source_index": 3,
+      "target_index": 4,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0501_THBM",
+      "target": "R0501_THBB",
+      "source_index": 4,
+      "target_index": 3,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0501_THBM",
+      "target": "R0501_THBT",
+      "source_index": 4,
+      "target_index": 5,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0501_THBT",
+      "target": "R0501_THBM",
+      "source_index": 5,
+      "target_index": 4,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0502_THFB",
+      "target": "R0502_THFM",
+      "source_index": 6,
+      "target_index": 7,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0502_THFM",
+      "target": "R0502_THFB",
+      "source_index": 7,
+      "target_index": 6,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0502_THFM",
+      "target": "R0502_THFT",
+      "source_index": 7,
+      "target_index": 8,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0502_THFT",
+      "target": "R0502_THFM",
+      "source_index": 8,
+      "target_index": 7,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0502_THBB",
+      "target": "R0502_THBM",
+      "source_index": 9,
+      "target_index": 10,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0502_THBM",
+      "target": "R0502_THBB",
+      "source_index": 10,
+      "target_index": 9,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0502_THBM",
+      "target": "R0502_THBT",
+      "source_index": 10,
+      "target_index": 11,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0502_THBT",
+      "target": "R0502_THBM",
+      "source_index": 11,
+      "target_index": 10,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0503_THFB",
+      "target": "R0503_THFM",
+      "source_index": 12,
+      "target_index": 13,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0503_THFM",
+      "target": "R0503_THFB",
+      "source_index": 13,
+      "target_index": 12,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0503_THFM",
+      "target": "R0503_THFT",
+      "source_index": 13,
+      "target_index": 14,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0503_THFT",
+      "target": "R0503_THFM",
+      "source_index": 14,
+      "target_index": 13,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0503_THBB",
+      "target": "R0503_THBM",
+      "source_index": 15,
+      "target_index": 16,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0503_THBM",
+      "target": "R0503_THBB",
+      "source_index": 16,
+      "target_index": 15,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0503_THBM",
+      "target": "R0503_THBT",
+      "source_index": 16,
+      "target_index": 17,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0503_THBT",
+      "target": "R0503_THBM",
+      "source_index": 17,
+      "target_index": 16,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0504_THFB",
+      "target": "R0504_THFM",
+      "source_index": 18,
+      "target_index": 19,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0504_THFM",
+      "target": "R0504_THFB",
+      "source_index": 19,
+      "target_index": 18,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0504_THFM",
+      "target": "R0504_THFT",
+      "source_index": 19,
+      "target_index": 20,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0504_THFT",
+      "target": "R0504_THFM",
+      "source_index": 20,
+      "target_index": 19,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0504_THBB",
+      "target": "R0504_THBM",
+      "source_index": 21,
+      "target_index": 22,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0504_THBM",
+      "target": "R0504_THBB",
+      "source_index": 22,
+      "target_index": 21,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0504_THBM",
+      "target": "R0504_THBT",
+      "source_index": 22,
+      "target_index": 23,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0504_THBT",
+      "target": "R0504_THBM",
+      "source_index": 23,
+      "target_index": 22,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0505_THFB",
+      "target": "R0505_THFM",
+      "source_index": 24,
+      "target_index": 25,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0505_THFM",
+      "target": "R0505_THFB",
+      "source_index": 25,
+      "target_index": 24,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0505_THFM",
+      "target": "R0505_THFT",
+      "source_index": 25,
+      "target_index": 26,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0505_THFT",
+      "target": "R0505_THFM",
+      "source_index": 26,
+      "target_index": 25,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0505_THBB",
+      "target": "R0505_THBM",
+      "source_index": 27,
+      "target_index": 28,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0505_THBM",
+      "target": "R0505_THBB",
+      "source_index": 28,
+      "target_index": 27,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0505_THBM",
+      "target": "R0505_THBT",
+      "source_index": 28,
+      "target_index": 29,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0505_THBT",
+      "target": "R0505_THBM",
+      "source_index": 29,
+      "target_index": 28,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0506_THFB",
+      "target": "R0506_THFM",
+      "source_index": 30,
+      "target_index": 31,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0506_THFM",
+      "target": "R0506_THFB",
+      "source_index": 31,
+      "target_index": 30,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0506_THFM",
+      "target": "R0506_THFT",
+      "source_index": 31,
+      "target_index": 32,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0506_THFT",
+      "target": "R0506_THFM",
+      "source_index": 32,
+      "target_index": 31,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0506_THBB",
+      "target": "R0506_THBM",
+      "source_index": 33,
+      "target_index": 34,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0506_THBM",
+      "target": "R0506_THBB",
+      "source_index": 34,
+      "target_index": 33,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0506_THBM",
+      "target": "R0506_THBT",
+      "source_index": 34,
+      "target_index": 35,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0506_THBT",
+      "target": "R0506_THBM",
+      "source_index": 35,
+      "target_index": 34,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0601_THFB",
+      "target": "R0601_THFM",
+      "source_index": 36,
+      "target_index": 37,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0601_THFM",
+      "target": "R0601_THFB",
+      "source_index": 37,
+      "target_index": 36,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0601_THFM",
+      "target": "R0601_THFT",
+      "source_index": 37,
+      "target_index": 38,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0601_THFT",
+      "target": "R0601_THFM",
+      "source_index": 38,
+      "target_index": 37,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0601_THBB",
+      "target": "R0601_THBM",
+      "source_index": 39,
+      "target_index": 40,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0601_THBM",
+      "target": "R0601_THBB",
+      "source_index": 40,
+      "target_index": 39,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0601_THBM",
+      "target": "R0601_THBT",
+      "source_index": 40,
+      "target_index": 41,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0601_THBT",
+      "target": "R0601_THBM",
+      "source_index": 41,
+      "target_index": 40,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0602_THFB",
+      "target": "R0602_THFM",
+      "source_index": 42,
+      "target_index": 43,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0602_THFM",
+      "target": "R0602_THFB",
+      "source_index": 43,
+      "target_index": 42,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0602_THFM",
+      "target": "R0602_THFT",
+      "source_index": 43,
+      "target_index": 44,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0602_THFT",
+      "target": "R0602_THFM",
+      "source_index": 44,
+      "target_index": 43,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0602_THBB",
+      "target": "R0602_THBM",
+      "source_index": 45,
+      "target_index": 46,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0602_THBM",
+      "target": "R0602_THBB",
+      "source_index": 46,
+      "target_index": 45,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0602_THBM",
+      "target": "R0602_THBT",
+      "source_index": 46,
+      "target_index": 47,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0602_THBT",
+      "target": "R0602_THBM",
+      "source_index": 47,
+      "target_index": 46,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0603_THFB",
+      "target": "R0603_THFM",
+      "source_index": 48,
+      "target_index": 49,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0603_THFM",
+      "target": "R0603_THFB",
+      "source_index": 49,
+      "target_index": 48,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0603_THFM",
+      "target": "R0603_THFT",
+      "source_index": 49,
+      "target_index": 50,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0603_THFT",
+      "target": "R0603_THFM",
+      "source_index": 50,
+      "target_index": 49,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0603_THBB",
+      "target": "R0603_THBM",
+      "source_index": 51,
+      "target_index": 52,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0603_THBM",
+      "target": "R0603_THBB",
+      "source_index": 52,
+      "target_index": 51,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0603_THBM",
+      "target": "R0603_THBT",
+      "source_index": 52,
+      "target_index": 53,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0603_THBT",
+      "target": "R0603_THBM",
+      "source_index": 53,
+      "target_index": 52,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0604_THFB",
+      "target": "R0604_THFM",
+      "source_index": 54,
+      "target_index": 55,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0604_THFM",
+      "target": "R0604_THFB",
+      "source_index": 55,
+      "target_index": 54,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0604_THFM",
+      "target": "R0604_THFT",
+      "source_index": 55,
+      "target_index": 56,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0604_THFT",
+      "target": "R0604_THFM",
+      "source_index": 56,
+      "target_index": 55,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0604_THBB",
+      "target": "R0604_THBM",
+      "source_index": 57,
+      "target_index": 58,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0604_THBM",
+      "target": "R0604_THBB",
+      "source_index": 58,
+      "target_index": 57,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0604_THBM",
+      "target": "R0604_THBT",
+      "source_index": 58,
+      "target_index": 59,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0604_THBT",
+      "target": "R0604_THBM",
+      "source_index": 59,
+      "target_index": 58,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0605_THFB",
+      "target": "R0605_THFM",
+      "source_index": 60,
+      "target_index": 61,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0605_THFM",
+      "target": "R0605_THFB",
+      "source_index": 61,
+      "target_index": 60,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0605_THFM",
+      "target": "R0605_THFT",
+      "source_index": 61,
+      "target_index": 62,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0605_THFT",
+      "target": "R0605_THFM",
+      "source_index": 62,
+      "target_index": 61,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0605_THBB",
+      "target": "R0605_THBM",
+      "source_index": 63,
+      "target_index": 64,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0605_THBM",
+      "target": "R0605_THBB",
+      "source_index": 64,
+      "target_index": 63,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0605_THBM",
+      "target": "R0605_THBT",
+      "source_index": 64,
+      "target_index": 65,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0605_THBT",
+      "target": "R0605_THBM",
+      "source_index": 65,
+      "target_index": 64,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0606_THFB",
+      "target": "R0606_THFM",
+      "source_index": 66,
+      "target_index": 67,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0606_THFM",
+      "target": "R0606_THFB",
+      "source_index": 67,
+      "target_index": 66,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0606_THFM",
+      "target": "R0606_THFT",
+      "source_index": 67,
+      "target_index": 68,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0606_THFT",
+      "target": "R0606_THFM",
+      "source_index": 68,
+      "target_index": 67,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0606_THBB",
+      "target": "R0606_THBM",
+      "source_index": 69,
+      "target_index": 70,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0606_THBM",
+      "target": "R0606_THBB",
+      "source_index": 70,
+      "target_index": 69,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0606_THBM",
+      "target": "R0606_THBT",
+      "source_index": 70,
+      "target_index": 71,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0606_THBT",
+      "target": "R0606_THBM",
+      "source_index": 71,
+      "target_index": 70,
+      "edge_type": "vertical"
+    },
+    {
+      "source": "R0501_THFB",
+      "target": "R0502_THFB",
+      "source_index": 0,
+      "target_index": 6,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0502_THFB",
+      "target": "R0501_THFB",
+      "source_index": 6,
+      "target_index": 0,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0501_THFM",
+      "target": "R0502_THFM",
+      "source_index": 1,
+      "target_index": 7,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0502_THFM",
+      "target": "R0501_THFM",
+      "source_index": 7,
+      "target_index": 1,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0501_THFT",
+      "target": "R0502_THFT",
+      "source_index": 2,
+      "target_index": 8,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0502_THFT",
+      "target": "R0501_THFT",
+      "source_index": 8,
+      "target_index": 2,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0501_THBB",
+      "target": "R0502_THBB",
+      "source_index": 3,
+      "target_index": 9,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0502_THBB",
+      "target": "R0501_THBB",
+      "source_index": 9,
+      "target_index": 3,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0501_THBM",
+      "target": "R0502_THBM",
+      "source_index": 4,
+      "target_index": 10,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0502_THBM",
+      "target": "R0501_THBM",
+      "source_index": 10,
+      "target_index": 4,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0501_THBT",
+      "target": "R0502_THBT",
+      "source_index": 5,
+      "target_index": 11,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0502_THBT",
+      "target": "R0501_THBT",
+      "source_index": 11,
+      "target_index": 5,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0502_THFB",
+      "target": "R0503_THFB",
+      "source_index": 6,
+      "target_index": 12,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0503_THFB",
+      "target": "R0502_THFB",
+      "source_index": 12,
+      "target_index": 6,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0502_THFM",
+      "target": "R0503_THFM",
+      "source_index": 7,
+      "target_index": 13,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0503_THFM",
+      "target": "R0502_THFM",
+      "source_index": 13,
+      "target_index": 7,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0502_THFT",
+      "target": "R0503_THFT",
+      "source_index": 8,
+      "target_index": 14,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0503_THFT",
+      "target": "R0502_THFT",
+      "source_index": 14,
+      "target_index": 8,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0502_THBB",
+      "target": "R0503_THBB",
+      "source_index": 9,
+      "target_index": 15,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0503_THBB",
+      "target": "R0502_THBB",
+      "source_index": 15,
+      "target_index": 9,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0502_THBM",
+      "target": "R0503_THBM",
+      "source_index": 10,
+      "target_index": 16,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0503_THBM",
+      "target": "R0502_THBM",
+      "source_index": 16,
+      "target_index": 10,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0502_THBT",
+      "target": "R0503_THBT",
+      "source_index": 11,
+      "target_index": 17,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0503_THBT",
+      "target": "R0502_THBT",
+      "source_index": 17,
+      "target_index": 11,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0503_THFB",
+      "target": "R0504_THFB",
+      "source_index": 12,
+      "target_index": 18,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0504_THFB",
+      "target": "R0503_THFB",
+      "source_index": 18,
+      "target_index": 12,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0503_THFM",
+      "target": "R0504_THFM",
+      "source_index": 13,
+      "target_index": 19,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0504_THFM",
+      "target": "R0503_THFM",
+      "source_index": 19,
+      "target_index": 13,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0503_THFT",
+      "target": "R0504_THFT",
+      "source_index": 14,
+      "target_index": 20,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0504_THFT",
+      "target": "R0503_THFT",
+      "source_index": 20,
+      "target_index": 14,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0503_THBB",
+      "target": "R0504_THBB",
+      "source_index": 15,
+      "target_index": 21,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0504_THBB",
+      "target": "R0503_THBB",
+      "source_index": 21,
+      "target_index": 15,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0503_THBM",
+      "target": "R0504_THBM",
+      "source_index": 16,
+      "target_index": 22,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0504_THBM",
+      "target": "R0503_THBM",
+      "source_index": 22,
+      "target_index": 16,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0503_THBT",
+      "target": "R0504_THBT",
+      "source_index": 17,
+      "target_index": 23,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0504_THBT",
+      "target": "R0503_THBT",
+      "source_index": 23,
+      "target_index": 17,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0504_THFB",
+      "target": "R0505_THFB",
+      "source_index": 18,
+      "target_index": 24,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0505_THFB",
+      "target": "R0504_THFB",
+      "source_index": 24,
+      "target_index": 18,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0504_THFM",
+      "target": "R0505_THFM",
+      "source_index": 19,
+      "target_index": 25,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0505_THFM",
+      "target": "R0504_THFM",
+      "source_index": 25,
+      "target_index": 19,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0504_THFT",
+      "target": "R0505_THFT",
+      "source_index": 20,
+      "target_index": 26,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0505_THFT",
+      "target": "R0504_THFT",
+      "source_index": 26,
+      "target_index": 20,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0504_THBB",
+      "target": "R0505_THBB",
+      "source_index": 21,
+      "target_index": 27,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0505_THBB",
+      "target": "R0504_THBB",
+      "source_index": 27,
+      "target_index": 21,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0504_THBM",
+      "target": "R0505_THBM",
+      "source_index": 22,
+      "target_index": 28,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0505_THBM",
+      "target": "R0504_THBM",
+      "source_index": 28,
+      "target_index": 22,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0504_THBT",
+      "target": "R0505_THBT",
+      "source_index": 23,
+      "target_index": 29,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0505_THBT",
+      "target": "R0504_THBT",
+      "source_index": 29,
+      "target_index": 23,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0505_THFB",
+      "target": "R0506_THFB",
+      "source_index": 24,
+      "target_index": 30,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0506_THFB",
+      "target": "R0505_THFB",
+      "source_index": 30,
+      "target_index": 24,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0505_THFM",
+      "target": "R0506_THFM",
+      "source_index": 25,
+      "target_index": 31,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0506_THFM",
+      "target": "R0505_THFM",
+      "source_index": 31,
+      "target_index": 25,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0505_THFT",
+      "target": "R0506_THFT",
+      "source_index": 26,
+      "target_index": 32,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0506_THFT",
+      "target": "R0505_THFT",
+      "source_index": 32,
+      "target_index": 26,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0505_THBB",
+      "target": "R0506_THBB",
+      "source_index": 27,
+      "target_index": 33,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0506_THBB",
+      "target": "R0505_THBB",
+      "source_index": 33,
+      "target_index": 27,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0505_THBM",
+      "target": "R0506_THBM",
+      "source_index": 28,
+      "target_index": 34,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0506_THBM",
+      "target": "R0505_THBM",
+      "source_index": 34,
+      "target_index": 28,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0505_THBT",
+      "target": "R0506_THBT",
+      "source_index": 29,
+      "target_index": 35,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0506_THBT",
+      "target": "R0505_THBT",
+      "source_index": 35,
+      "target_index": 29,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0601_THFB",
+      "target": "R0602_THFB",
+      "source_index": 36,
+      "target_index": 42,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0602_THFB",
+      "target": "R0601_THFB",
+      "source_index": 42,
+      "target_index": 36,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0601_THFM",
+      "target": "R0602_THFM",
+      "source_index": 37,
+      "target_index": 43,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0602_THFM",
+      "target": "R0601_THFM",
+      "source_index": 43,
+      "target_index": 37,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0601_THFT",
+      "target": "R0602_THFT",
+      "source_index": 38,
+      "target_index": 44,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0602_THFT",
+      "target": "R0601_THFT",
+      "source_index": 44,
+      "target_index": 38,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0601_THBB",
+      "target": "R0602_THBB",
+      "source_index": 39,
+      "target_index": 45,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0602_THBB",
+      "target": "R0601_THBB",
+      "source_index": 45,
+      "target_index": 39,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0601_THBM",
+      "target": "R0602_THBM",
+      "source_index": 40,
+      "target_index": 46,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0602_THBM",
+      "target": "R0601_THBM",
+      "source_index": 46,
+      "target_index": 40,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0601_THBT",
+      "target": "R0602_THBT",
+      "source_index": 41,
+      "target_index": 47,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0602_THBT",
+      "target": "R0601_THBT",
+      "source_index": 47,
+      "target_index": 41,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0602_THFB",
+      "target": "R0603_THFB",
+      "source_index": 42,
+      "target_index": 48,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0603_THFB",
+      "target": "R0602_THFB",
+      "source_index": 48,
+      "target_index": 42,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0602_THFM",
+      "target": "R0603_THFM",
+      "source_index": 43,
+      "target_index": 49,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0603_THFM",
+      "target": "R0602_THFM",
+      "source_index": 49,
+      "target_index": 43,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0602_THFT",
+      "target": "R0603_THFT",
+      "source_index": 44,
+      "target_index": 50,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0603_THFT",
+      "target": "R0602_THFT",
+      "source_index": 50,
+      "target_index": 44,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0602_THBB",
+      "target": "R0603_THBB",
+      "source_index": 45,
+      "target_index": 51,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0603_THBB",
+      "target": "R0602_THBB",
+      "source_index": 51,
+      "target_index": 45,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0602_THBM",
+      "target": "R0603_THBM",
+      "source_index": 46,
+      "target_index": 52,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0603_THBM",
+      "target": "R0602_THBM",
+      "source_index": 52,
+      "target_index": 46,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0602_THBT",
+      "target": "R0603_THBT",
+      "source_index": 47,
+      "target_index": 53,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0603_THBT",
+      "target": "R0602_THBT",
+      "source_index": 53,
+      "target_index": 47,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0603_THFB",
+      "target": "R0604_THFB",
+      "source_index": 48,
+      "target_index": 54,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0604_THFB",
+      "target": "R0603_THFB",
+      "source_index": 54,
+      "target_index": 48,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0603_THFM",
+      "target": "R0604_THFM",
+      "source_index": 49,
+      "target_index": 55,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0604_THFM",
+      "target": "R0603_THFM",
+      "source_index": 55,
+      "target_index": 49,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0603_THFT",
+      "target": "R0604_THFT",
+      "source_index": 50,
+      "target_index": 56,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0604_THFT",
+      "target": "R0603_THFT",
+      "source_index": 56,
+      "target_index": 50,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0603_THBB",
+      "target": "R0604_THBB",
+      "source_index": 51,
+      "target_index": 57,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0604_THBB",
+      "target": "R0603_THBB",
+      "source_index": 57,
+      "target_index": 51,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0603_THBM",
+      "target": "R0604_THBM",
+      "source_index": 52,
+      "target_index": 58,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0604_THBM",
+      "target": "R0603_THBM",
+      "source_index": 58,
+      "target_index": 52,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0603_THBT",
+      "target": "R0604_THBT",
+      "source_index": 53,
+      "target_index": 59,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0604_THBT",
+      "target": "R0603_THBT",
+      "source_index": 59,
+      "target_index": 53,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0604_THFB",
+      "target": "R0605_THFB",
+      "source_index": 54,
+      "target_index": 60,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0605_THFB",
+      "target": "R0604_THFB",
+      "source_index": 60,
+      "target_index": 54,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0604_THFM",
+      "target": "R0605_THFM",
+      "source_index": 55,
+      "target_index": 61,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0605_THFM",
+      "target": "R0604_THFM",
+      "source_index": 61,
+      "target_index": 55,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0604_THFT",
+      "target": "R0605_THFT",
+      "source_index": 56,
+      "target_index": 62,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0605_THFT",
+      "target": "R0604_THFT",
+      "source_index": 62,
+      "target_index": 56,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0604_THBB",
+      "target": "R0605_THBB",
+      "source_index": 57,
+      "target_index": 63,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0605_THBB",
+      "target": "R0604_THBB",
+      "source_index": 63,
+      "target_index": 57,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0604_THBM",
+      "target": "R0605_THBM",
+      "source_index": 58,
+      "target_index": 64,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0605_THBM",
+      "target": "R0604_THBM",
+      "source_index": 64,
+      "target_index": 58,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0604_THBT",
+      "target": "R0605_THBT",
+      "source_index": 59,
+      "target_index": 65,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0605_THBT",
+      "target": "R0604_THBT",
+      "source_index": 65,
+      "target_index": 59,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0605_THFB",
+      "target": "R0606_THFB",
+      "source_index": 60,
+      "target_index": 66,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0606_THFB",
+      "target": "R0605_THFB",
+      "source_index": 66,
+      "target_index": 60,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0605_THFM",
+      "target": "R0606_THFM",
+      "source_index": 61,
+      "target_index": 67,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0606_THFM",
+      "target": "R0605_THFM",
+      "source_index": 67,
+      "target_index": 61,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0605_THFT",
+      "target": "R0606_THFT",
+      "source_index": 62,
+      "target_index": 68,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0606_THFT",
+      "target": "R0605_THFT",
+      "source_index": 68,
+      "target_index": 62,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0605_THBB",
+      "target": "R0606_THBB",
+      "source_index": 63,
+      "target_index": 69,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0606_THBB",
+      "target": "R0605_THBB",
+      "source_index": 69,
+      "target_index": 63,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0605_THBM",
+      "target": "R0606_THBM",
+      "source_index": 64,
+      "target_index": 70,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0606_THBM",
+      "target": "R0605_THBM",
+      "source_index": 70,
+      "target_index": 64,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0605_THBT",
+      "target": "R0606_THBT",
+      "source_index": 65,
+      "target_index": 71,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0606_THBT",
+      "target": "R0605_THBT",
+      "source_index": 71,
+      "target_index": 65,
+      "edge_type": "same_row_adjacent"
+    },
+    {
+      "source": "R0501_THFB",
+      "target": "R0601_THFB",
+      "source_index": 0,
+      "target_index": 36,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0601_THFB",
+      "target": "R0501_THFB",
+      "source_index": 36,
+      "target_index": 0,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0501_THFM",
+      "target": "R0601_THFM",
+      "source_index": 1,
+      "target_index": 37,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0601_THFM",
+      "target": "R0501_THFM",
+      "source_index": 37,
+      "target_index": 1,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0501_THFT",
+      "target": "R0601_THFT",
+      "source_index": 2,
+      "target_index": 38,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0601_THFT",
+      "target": "R0501_THFT",
+      "source_index": 38,
+      "target_index": 2,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0501_THBB",
+      "target": "R0601_THBB",
+      "source_index": 3,
+      "target_index": 39,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0601_THBB",
+      "target": "R0501_THBB",
+      "source_index": 39,
+      "target_index": 3,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0501_THBM",
+      "target": "R0601_THBM",
+      "source_index": 4,
+      "target_index": 40,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0601_THBM",
+      "target": "R0501_THBM",
+      "source_index": 40,
+      "target_index": 4,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0501_THBT",
+      "target": "R0601_THBT",
+      "source_index": 5,
+      "target_index": 41,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0601_THBT",
+      "target": "R0501_THBT",
+      "source_index": 41,
+      "target_index": 5,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0502_THFB",
+      "target": "R0602_THFB",
+      "source_index": 6,
+      "target_index": 42,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0602_THFB",
+      "target": "R0502_THFB",
+      "source_index": 42,
+      "target_index": 6,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0502_THFM",
+      "target": "R0602_THFM",
+      "source_index": 7,
+      "target_index": 43,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0602_THFM",
+      "target": "R0502_THFM",
+      "source_index": 43,
+      "target_index": 7,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0502_THFT",
+      "target": "R0602_THFT",
+      "source_index": 8,
+      "target_index": 44,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0602_THFT",
+      "target": "R0502_THFT",
+      "source_index": 44,
+      "target_index": 8,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0502_THBB",
+      "target": "R0602_THBB",
+      "source_index": 9,
+      "target_index": 45,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0602_THBB",
+      "target": "R0502_THBB",
+      "source_index": 45,
+      "target_index": 9,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0502_THBM",
+      "target": "R0602_THBM",
+      "source_index": 10,
+      "target_index": 46,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0602_THBM",
+      "target": "R0502_THBM",
+      "source_index": 46,
+      "target_index": 10,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0502_THBT",
+      "target": "R0602_THBT",
+      "source_index": 11,
+      "target_index": 47,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0602_THBT",
+      "target": "R0502_THBT",
+      "source_index": 47,
+      "target_index": 11,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0503_THFB",
+      "target": "R0603_THFB",
+      "source_index": 12,
+      "target_index": 48,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0603_THFB",
+      "target": "R0503_THFB",
+      "source_index": 48,
+      "target_index": 12,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0503_THFM",
+      "target": "R0603_THFM",
+      "source_index": 13,
+      "target_index": 49,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0603_THFM",
+      "target": "R0503_THFM",
+      "source_index": 49,
+      "target_index": 13,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0503_THFT",
+      "target": "R0603_THFT",
+      "source_index": 14,
+      "target_index": 50,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0603_THFT",
+      "target": "R0503_THFT",
+      "source_index": 50,
+      "target_index": 14,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0503_THBB",
+      "target": "R0603_THBB",
+      "source_index": 15,
+      "target_index": 51,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0603_THBB",
+      "target": "R0503_THBB",
+      "source_index": 51,
+      "target_index": 15,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0503_THBM",
+      "target": "R0603_THBM",
+      "source_index": 16,
+      "target_index": 52,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0603_THBM",
+      "target": "R0503_THBM",
+      "source_index": 52,
+      "target_index": 16,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0503_THBT",
+      "target": "R0603_THBT",
+      "source_index": 17,
+      "target_index": 53,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0603_THBT",
+      "target": "R0503_THBT",
+      "source_index": 53,
+      "target_index": 17,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0504_THFB",
+      "target": "R0604_THFB",
+      "source_index": 18,
+      "target_index": 54,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0604_THFB",
+      "target": "R0504_THFB",
+      "source_index": 54,
+      "target_index": 18,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0504_THFM",
+      "target": "R0604_THFM",
+      "source_index": 19,
+      "target_index": 55,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0604_THFM",
+      "target": "R0504_THFM",
+      "source_index": 55,
+      "target_index": 19,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0504_THFT",
+      "target": "R0604_THFT",
+      "source_index": 20,
+      "target_index": 56,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0604_THFT",
+      "target": "R0504_THFT",
+      "source_index": 56,
+      "target_index": 20,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0504_THBB",
+      "target": "R0604_THBB",
+      "source_index": 21,
+      "target_index": 57,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0604_THBB",
+      "target": "R0504_THBB",
+      "source_index": 57,
+      "target_index": 21,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0504_THBM",
+      "target": "R0604_THBM",
+      "source_index": 22,
+      "target_index": 58,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0604_THBM",
+      "target": "R0504_THBM",
+      "source_index": 58,
+      "target_index": 22,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0504_THBT",
+      "target": "R0604_THBT",
+      "source_index": 23,
+      "target_index": 59,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0604_THBT",
+      "target": "R0504_THBT",
+      "source_index": 59,
+      "target_index": 23,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0505_THFB",
+      "target": "R0605_THFB",
+      "source_index": 24,
+      "target_index": 60,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0605_THFB",
+      "target": "R0505_THFB",
+      "source_index": 60,
+      "target_index": 24,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0505_THFM",
+      "target": "R0605_THFM",
+      "source_index": 25,
+      "target_index": 61,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0605_THFM",
+      "target": "R0505_THFM",
+      "source_index": 61,
+      "target_index": 25,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0505_THFT",
+      "target": "R0605_THFT",
+      "source_index": 26,
+      "target_index": 62,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0605_THFT",
+      "target": "R0505_THFT",
+      "source_index": 62,
+      "target_index": 26,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0505_THBB",
+      "target": "R0605_THBB",
+      "source_index": 27,
+      "target_index": 63,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0605_THBB",
+      "target": "R0505_THBB",
+      "source_index": 63,
+      "target_index": 27,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0505_THBM",
+      "target": "R0605_THBM",
+      "source_index": 28,
+      "target_index": 64,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0605_THBM",
+      "target": "R0505_THBM",
+      "source_index": 64,
+      "target_index": 28,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0505_THBT",
+      "target": "R0605_THBT",
+      "source_index": 29,
+      "target_index": 65,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0605_THBT",
+      "target": "R0505_THBT",
+      "source_index": 65,
+      "target_index": 29,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0506_THFB",
+      "target": "R0606_THFB",
+      "source_index": 30,
+      "target_index": 66,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0606_THFB",
+      "target": "R0506_THFB",
+      "source_index": 66,
+      "target_index": 30,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0506_THFM",
+      "target": "R0606_THFM",
+      "source_index": 31,
+      "target_index": 67,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0606_THFM",
+      "target": "R0506_THFM",
+      "source_index": 67,
+      "target_index": 31,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0506_THFT",
+      "target": "R0606_THFT",
+      "source_index": 32,
+      "target_index": 68,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0606_THFT",
+      "target": "R0506_THFT",
+      "source_index": 68,
+      "target_index": 32,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0506_THBB",
+      "target": "R0606_THBB",
+      "source_index": 33,
+      "target_index": 69,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0606_THBB",
+      "target": "R0506_THBB",
+      "source_index": 69,
+      "target_index": 33,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0506_THBM",
+      "target": "R0606_THBM",
+      "source_index": 34,
+      "target_index": 70,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0606_THBM",
+      "target": "R0506_THBM",
+      "source_index": 70,
+      "target_index": 34,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0506_THBT",
+      "target": "R0606_THBT",
+      "source_index": 35,
+      "target_index": 71,
+      "edge_type": "cross_row_matched"
+    },
+    {
+      "source": "R0606_THBT",
+      "target": "R0506_THBT",
+      "source_index": 71,
+      "target_index": 35,
+      "edge_type": "cross_row_matched"
+    }
+  ],
+  "edge_count": 324,
+  "edge_counts_by_type": {
+    "front_to_back": 36,
+    "vertical": 96,
+    "same_row_adjacent": 120,
+    "cross_row_matched": 72
+  },
+  "edge_semantics": {
+    "front_to_back": "directed server intake-to-exhaust thermal transport; retained as a distinct physical mechanism",
+    "vertical": "bidirectional effective mixing between adjacent heights on the same rack side",
+    "same_row_adjacent": "bidirectional effective mixing between adjacent racks at the same side and height",
+    "cross_row_matched": "bidirectional effective recirculation/mixing between matched rack positions"
+  }
+}
